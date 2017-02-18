@@ -11,12 +11,19 @@
 
     <script src="systemjs.config.js"></script>
     <script>
-      System.import('built/app').catch(console.error.bind(null));
+      System.import('built/app/pomodoro-timer').catch(console.error.bind(null));
     </script>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
   <body>
-    <hello-angular></hello-angular>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <strong class="navbar-brand">My Pomodoro Timer</strong>
+        </div>
+      </div>
+    </nav>
+    <pomodoro-timer></pomodoro-timer>
   </body>
 </html>
