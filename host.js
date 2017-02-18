@@ -1,3 +1,7 @@
+/**
+ * Simple static server based on express
+ * for hosting sample application
+ */
 var express = require('express');
 var app = express();
 

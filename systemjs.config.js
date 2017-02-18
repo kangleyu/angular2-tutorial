@@ -1,7 +1,7 @@
 (function (global) {
   System.config({
     map: {
-      app: 'app',
+      app: 'built/app',
         
       '@angular/core': 'node_modules/@angular/core/bundles/core.umd.js',
       '@angular/common': 'node_modules/@angular/common/bundles/common.umd.js',

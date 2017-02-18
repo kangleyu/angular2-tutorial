@@ -20,6 +20,7 @@ export class HelloAngularComponent {
   declarations: [HelloAngularComponent],
   bootstrap: [HelloAngularComponent],
 })
+
 export class AppModule { }
 
 // Application bootstrap (specific for browser environments)
